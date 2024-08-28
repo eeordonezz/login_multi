@@ -1,0 +1,110 @@
+.login_contenedor {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.bienvenido h1 {
+    font-size: 24px;
+    color: #5a2a7a;
+    margin-bottom: 10px;
+    animation: slideDown 1s ease-in-out;
+}
+
+.bienvenido p {
+    color: #7e7e7e;
+    margin-bottom: 20px;
+    animation: slideDown 1s ease-in-out;
+}
+
+.login_formulario input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login_formulario button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5a2a7a;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login_formulario button:hover {
+    background-color: #7b3b9c;
+}
+
+.opciones {
+    margin-top: 20px;
+}
+
+.opciones a {
+    color: #5a2a7a;
+    text-decoration: none;
+}
+
+.github-btn {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.github-btn:hover {
+    background-color: #555;
+}
+.login-btn a{
+    color: white;
+    text-decoration: none;
+}
+.guest-btn a{
+    color: white;
+    text-decoration: none;
+}
+.github-btn a{
+    color: white;
+
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
